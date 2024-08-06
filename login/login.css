@@ -73,6 +73,26 @@ header {
     
     }
 
+    .baap{
+        color: #ffffff;
+        font-family: "DM Sans", sans-serif, bold;
+        font-weight: 600;
+        font-size: 25px;
+        float: right;
+          margin:40px 80px 20px 0;
+
+
+
+
+    }
+
+.baixar{
+  float: right;
+  margin-right: 80px;
+  font-family: DM ;
+}
+
+
  .bc2{
     background-color: #ffffff;
     border: 0;
@@ -89,19 +109,89 @@ header {
     font-size:30px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 35px;
+    margin-top: 0 0 40px 30px
  }
 
  input{
     border: 0;
     outline:0;
     border-radius: 15px;
- padding-left: 20px;
-    margin-left: 10px;
+ margin-left: 5px;
+    margin: 20px 10px 15px 20px;
      height: 40px;
-    width: 430px;
+    width: 350px;
     background-color: rgb(233, 233, 233);
     color: black;
     
  }
+  .email{
+     text-align: left;
+     padding-left: 15px;
+  }
+      .senha{
+        text-align: left;
+        padding-left: 15px;
+     }
+      
  
-       
+ .bt2{
+    background-color: #35A378;
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    width: 400px;
+    height: 70px;
+    margin:45px 45px 0 25px;
+  text-align: center;
+ }
+ .ntc{
+    font-family: "DM Sans", sans-serif;
+font-size: 17px;
+font-weight: 500;    
+color: black;
+margin: 10px 0 0 35px;
+position: relative;
+
+ }
+
+ .login{
+    font-family:  DM sans-serif ;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    margin: 20px 0 0 31%;
+
+ }
+
+ .pessoa{
+  margin: 3px 2px 2px 3px;
+    ;
+ }
+
+ .block{
+    margin: 3px 2px 2px 3px;
+      ;
+   }
+
+   .esqueceu{
+    text-decoration:none;
+    margin-left: 30px;
+    font-size: 15px;
+   }
+
+   .cdt{
+    text-decoration:none;
+    margin-left: 35px;
+    font-size: 16px;
+    position: relative;
+    
+}
+ 
+.logos{
+    margin-top: 1% ;
+padding-left: 92px;
+}
