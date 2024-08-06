@@ -1,0 +1,107 @@
+.Inicio{
+    background-color:#35A378
+   
+}
+section{background-image: url("imagem/logobody.png");}
+
+
+nav ul {list-style-type: none;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "embed code", sans-serif;
+    
+   
+}
+
+nav{
+    background-color: #d9d9d9;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   
+}
+
+nav li{
+    display: inline-block;
+    
+    
+}
+
+nav li a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+ 
+
+header {
+   display: flex;
+   flex: 1; 
+   background-color: #d9d9d9;
+   justify-content: center;
+   align-items: center;
+   padding: 0 30px 0 30px;
+}
+
+.logopa {
+   background-color:#d9d9d9;
+
+}
+
+.loginpag2{ justify-content:center;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    margin-right:  20px;
+    background-color: #35A378;
+    border: 0;
+    color: white;
+    }
+
+
+    .bc{
+        background-color: #35A373;
+ 
+        height: 100vh;
+       
+    
+    
+    }
+
+ .bc2{
+    background-color: #ffffff;
+    border: 0;
+    padding-top: 2%;
+    color: white;
+    margin-left: 100px;
+    border-radius: 30px;
+    width: 450px;
+    height:600px ;
+ }
+
+ .titulo{
+    color: black;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+ }
+
+ input{
+    border: 0;
+    outline:0;
+    border-radius: 15px;
+ padding-left: 20px;
+    margin-left: 10px;
+     height: 40px;
+    width: 430px;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    
+ }
+ 
+       
