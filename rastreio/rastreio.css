@@ -68,7 +68,7 @@ header {
     .bc2{
         flex: 1;
         display: block;
-        width: 1300px;
+      
         height: 100vh;
         background-color: #35A378;}
 
@@ -86,6 +86,7 @@ header {
             padding: 24px;
        padding-left: 50px;
        padding-right: 50px;
+      align-self: center;
              width: 1200px;
             border: 0;
             border-radius: 15px;
@@ -99,9 +100,12 @@ header {
            margin-left: 40px;
          }
 
-         .img{
-            justify-content: center;
-            padding-left: 350px;
-         }
+         
+         
 
-        
+        .numero{
+            display: flex;
+            flex: 1;
+            align-items: center;
+            flex-direction: column;
+        }
