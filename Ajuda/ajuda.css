@@ -26,22 +26,24 @@ nav {
     display: flex;
     justify-content: center;
 
+
 }
 
 nav li {
     display: inline-block;
-
-
 }
 
-nav li a {
+li a {
     display: inline-block;
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 25px;
-    padding-bottom: 0px;
+
 }
 
+a {
+    text-decoration: none;
+}
 
 header {
     display: flex;
@@ -52,12 +54,13 @@ header {
     padding: 0 30px 0 30px;
 }
 
+
 .logopa {
     background-color: #d9d9d9;
 
 }
 
-.loginpag2 {
+.login {
     justify-content: center;
     align-items: center;
     padding: 5px 20px 5px 20px;
@@ -115,7 +118,7 @@ header {
 
 }
 
-.input12{
+.input12 {
     margin-top: 5px;
 }
 
@@ -135,14 +138,14 @@ header {
 }
 
 
-.link{
+.link {
     margin-top: 9px;
 }
 
 .links {
     margin-left:
         30px;
-   margin-top: 10px;
+    margin-top: 10px;
 
 }
 
@@ -238,8 +241,7 @@ header {
     float: right;
     width: 150px;
     height: 60px;
-    margin-top: 30px
-    ;
+    margin-top: 30px;
 }
 
 
